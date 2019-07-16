@@ -1,0 +1,41 @@
+/*
+footer.css
+(c) 2019 Cameron Grigoriadis
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+footer .col {
+  text-align: center;
+
+  padding: 2em 10%;
+}
+
+footer .legal {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: 600;
+
+  color: rgb(43, 50, 56);
+
+  line-height: 1.5rem;
+}
+
+footer .icon-sm {
+  max-height: 1rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer hr {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-decoration {
+  height: 1.5rem;
+
+  background: rgba(255, 255, 255, 0);
+}

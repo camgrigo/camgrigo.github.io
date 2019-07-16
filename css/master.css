@@ -1,29 +1,72 @@
-
-/* Fonts */
-
-@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap');
-
+/*
+master.css
+(c) 2019 Cameron Grigoriadis
+*/
 
 /* General */
 
-.container-fluid .row {
-  padding-left: 10rem;
-  padding-right: 10rem;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(0,140,255);
+  background: linear-gradient(300deg, rgba(0,140,255,1) 0%, rgba(87, 236, 153, 1) 100%);
+}
+
+@media (min-width: 992px) {
+  .container-fluid .row {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Sections */
+
+section {
+  margin-bottom: 2rem;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+@media (min-width: 992px) {
+  .heading {
+    text-align: center;
+  }
+}
+
+#work-section-content .row {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#work-section-content .header {
+  margin-bottom: 1rem;
 }
 
 /* Buttons */
 
 .btn {
-  vertical-align: middle;
+  font-weight: 500;
 }
 
 .btn p {
   display: inline;
-  vertical-align: middle;
 }
 
 .btn svg {
   margin: 0.2rem;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
 }
 
 .btn-primary {
@@ -47,11 +90,6 @@
 
 /* Header */
 
-body {
-    background: rgb(0,140,255);
-    background: linear-gradient(315deg, rgba(0,140,255,1) 0%, rgba(87, 236, 153, 1) 100%);
-}
-
 header {
   color: white;
 
@@ -63,7 +101,7 @@ header {
 header .title-large {
   max-width: 100%;
 
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 450;
 
   text-align: center;
@@ -91,7 +129,11 @@ header .title-large {
 }
 
 
-/* Bio */
+/* Summary */
+
+#profile-link-section a {
+  margin: auto;
+}
 
 .bio {
   text-align: left;
@@ -108,55 +150,45 @@ header .title-large {
 
 
 /* Anchors, Links */
-
 .link-group {
-  margin: 2em 0;
+  padding-left: 0;
+  margin: 2rem 0;
 }
 
 .link-group .col-sm {
   padding-left: 0;
 }
 
+.link-group .btn {
+  margin: 0.8rem;
+  height: 3.3rem;
+}
+
 .profile-link-sm {
-  margin-right: 1.5rem;
+  margin: 2rem;
   display: inline-block;
 }
 
 .profile-link-sm img {
-  height: 3.5rem;
+  height: 10%;
+  min-height: 30px;
+  max-height: 3.5rem;
 }
 
-.profile-link-sm:hover {
+@media (max-width: 992px) {
+  .profile-link-sm {
+    margin: 1rem;
+  }
+
+  .profile-link-sm img {
+    height: 3rem;
+  }
+}
+
+a img:hover {
   filter: opacity(60%);
 }
 
 #linkedIn-profile-link {
-  margin-right: 1rem;
-}
-
-
-/* Footer */
-
-footer .col {
-  text-align: center;
-
-  padding: 2em 10%;
-}
-
-footer .legal {
-  font-family: 'PT Serif', serif;
-  font-size: 0.8em;
-  font-style: italic;
-  font-weight: 600;
-
-  color: rgb(43, 50, 56);
-
-  line-height: 1.5rem;
-}
-
-.footer-decoration {
-  height: 1.5rem;
-
-  background: rgba(255, 255, 255, 0);
-  background: linear-gradient(270deg, rgba(0,140,255,1) 0%, rgba(120,249,177,1) 100%);
+  margin-right: 2%;
 }
