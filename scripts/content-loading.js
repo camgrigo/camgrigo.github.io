@@ -78,7 +78,7 @@ function loadWorkSection() {
 
     return '<div class="row">' +
     '<div class="col-md-1"></div>' +
-    '<div class="col-md-4" align="right">' + item[0] + '</div>' + // Image
+    '<div class="col-md-4">' + item[0] + '</div>' + // Image
     '<div class="col-md-1"></div>' +
     '<div class="col-md-5">' +
     '<div class="header">' +
@@ -89,7 +89,7 @@ function loadWorkSection() {
     '</div>' +
     '</div>' +
     '<div class="col-md-1"></div>' +
-    '<hr class="col-12" style="width: ' + hrWidth + '%">'
+    '<div class="row"><hr class="col-12" style="width: ' + hrWidth + '%"></div>'
   })
   .join('\n')
 }
