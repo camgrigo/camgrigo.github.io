@@ -30,9 +30,9 @@ index.html
     <div class="container-fluid" style="background-color:white;" width="100%">
       <!-- Summary -->
       <section>
-      <div class="row">
-        <div id="profile-link-section" class="col-sm-12 link-group" style="vertical-align: middle;"></div>
-      </div>
+        <div class="row">
+          <div id="profile-link-section" class="col-sm-12 link-group" style="vertical-align: middle;"></div>
+        </div>
         <div class="row">
           <div class="col-md-6">
             <p class="bio"><strong style="font-size:1.2rem;">I am an enthusiastic software developer</strong> with over 5 years of experience with Apple platforms and the Swift Programming Language, in addition to frontend web technologies. During my summers in college, I served frozen yogurt at a <a href="https://www.facebook.com/happy.yogurt.esco/" target="_blank">local shop</a>, which helped me to develop skills in customer service and time management.</p>
@@ -53,10 +53,10 @@ index.html
         <div class="row link-group">
           <div class="col-md-3"></div>
           <div class="col-md-3" align="right">
-              <a class="btn btn-info btn-lg" href="resources/CameronGrigoriadisResume07112019.pdf" target="_blank">
-                <svg style="margin-bottom:0.45rem" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
-                <p>View Resume</p>
-              </a>
+            <a class="btn btn-info btn-lg" href="resources/CameronGrigoriadisResume07112019.pdf" target="_blank">
+              <svg style="margin-bottom:0.45rem" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
+              <p>View Resume</p>
+            </a>
           </div>
           <div class="col-md-3" align="left">
             <a class="btn btn-primary btn-lg" href="#contact">
@@ -78,31 +78,37 @@ index.html
         <div id="work-section-content"></div>
       </section>
       <!-- Contact -->
-      <section id="contact" style="margin-top:10rem;">
+      <section id="contact">
         <div class="row">
           <div class="col-12">
-            <h1 class="heading text-left">Contact</h1>
-            <ul>
-              <li>Cameron Grigoriadis</li>
-              <li><img src="" alt="Phone">760.208.0429</li>
-              <li><img src="" alt="Email">cg@camgrigo.com</li>
-              <li><img src="" alt="LinkedIn"></li>
+            <h1 class="heading text-center">Contact</h1>
+            <ul style="list-style:none;padding-left:0;">
+              <li><h5>Cameron Grigoriadis</h5></li>
+              <li><h6>Developer, Service Day</h6></li>
+              <li><img src="resources/icons/feather/phone.svg" alt="Phone" style="padding-right:0.6em;">760.208.0429</li>
+              <li>
+                <a href="mailto:cg@camgrigo.com">
+                  <img src="resources/icons/feather/mail.svg" alt="Email" style="padding-right:0.6em;">cg@camgrigo.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </section>
     </div>
-    <!-- Footer -->
-    <footer class="row">
-      <div class="col">
-        <p style="font-weight: bold;color:white;"><a href="#page-header">Copyright 2019 Cameron Grigoriadis</a> • <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.iubenda.com%2Fprivacy-policy%2F56343677&sa=D&sntz=1&usg=AFQjCNFUjYO6ZH_OqhcoIyGKzO_GMaj_-Q" target="_blank">Service Day Privacy Policy<svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></p>
-        <hr width="50%">
-        <p class="legal">Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. • LinkedIn, the LinkedIn logo, the IN logo and InMail are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries. • TWITTER, TWEET, RETWEET and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.</p>
-        <p class="legal"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Some glyphs courtesy of <a href="https://feathericons.com/" target="_blank">
-          Feather<svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
-        </a></p>
-      </div>
-    </footer>
+    <div class="container-fluid" width="100%">
+      <!-- Footer -->
+      <footer class="row">
+        <div class="col">
+          <p style="font-weight: bold;color:white;"><a href="#page-header">Copyright 2019 Cameron Grigoriadis</a> • <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.iubenda.com%2Fprivacy-policy%2F56343677&sa=D&sntz=1&usg=AFQjCNFUjYO6ZH_OqhcoIyGKzO_GMaj_-Q" target="_blank">Service Day Privacy Policy<svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></p>
+          <hr width="50%">
+          <p class="legal">Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. • LinkedIn, the LinkedIn logo, the IN logo and InMail are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries. • TWITTER, TWEET, RETWEET and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.</p>
+          <p class="legal"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Some glyphs courtesy of <a href="https://feathericons.com/" target="_blank">
+            Feather<svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
+          </a></p>
+        </div>
+      </footer>
+    </div>
   </div>
 
   <!-- JavaScript -->
