@@ -25,6 +25,11 @@ function loadProfiles() {
       "twitter-profile-link",
       "https://twitter.com/camgrigo",
       ["resources/icons/profiles/Twitter Social Icons/Twitter Social Icons/Twitter_SocialIcon_Circle/Twitter_Social_Icon_Circle_Color.png", "View my Twitter Profile"]
+    ],
+    [
+      "medium-profile-link",
+      "https://medium.com/@camgrigo",
+      ["resources/icons/profiles/medium-logos-master/monogram/Monogram.svg", "View my Medium Profile"]
     ]
   ]
 
