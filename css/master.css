@@ -96,47 +96,6 @@ section {
 }
 
 
-/* Header */
-
-header {
-  color: white;
-
-  height: 20rem;
-
-  position: relative;
-}
-
-header .title-large {
-  max-width: 100%;
-
-  font-size: 3rem;
-  font-weight: 450;
-
-  text-align: center;
-
-  padding-bottom: 2rem;
-
-  position: absolute;
-  bottom: 0;
-
-  text-shadow: 0.1rem 0.1rem 0.25rem rgba(91, 100, 110, 0.15);
-}
-
-@media (min-width: 992px) {
-  header .title-large {
-    font-size: 5rem;
-    font-weight: 450;
-
-    text-align: left;
-
-    padding-bottom: 2rem;
-
-    position: absolute;
-    bottom: 0;
-  }
-}
-
-
 /* Summary */
 
 #profile-link-section a {
