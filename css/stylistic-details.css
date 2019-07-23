@@ -1,0 +1,12 @@
+/*
+stylistic-details.css
+(c) 2019 Cameron Grigoriadis
+*/
+
+hr.section-break {
+  width: 95%;
+}
+
+hr.item-break {
+  width: 50%;
+}
