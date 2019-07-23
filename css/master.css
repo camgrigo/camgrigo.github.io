@@ -59,6 +59,14 @@ section {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 992px) {
+
+  #work-section-content .row img {
+    float: right;
+  }
+
+}
+
 /* Buttons */
 
 .btn {
@@ -118,7 +126,7 @@ section {
 
 /* Anchors, Links */
 .link-group {
-  padding-left: 0;
+  padding-left: 1rem;
   margin: 2rem 0;
 }
 
@@ -132,7 +140,7 @@ section {
 }
 
 .profile-link-sm {
-  margin: 2rem;
+  margin: 2rem 4rem 2rem 0;
   display: inline-block;
 }
 
@@ -154,8 +162,4 @@ section {
 
 a img:hover {
   filter: opacity(60%);
-}
-
-#linkedIn-profile-link {
-  margin-right: 2%;
 }
