@@ -3,33 +3,34 @@
 
 var profileSectionId = 'profile-link-section'
 var workSectionId = 'work-section-content'
+var baseResourcePath = 'resources/icons/profiles/'
 
 function loadProfiles() {
   var profiles = [
     [
       "gitHub-profile-link",
       "https://github.com/camgrigo",
-      ["resources/icons/profiles/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png", "View my Github Profile"]
+      [baseResourcePath + "GitHub-Mark/PNG/GitHub-Mark-120px-plus.png", "View my Github Profile"]
     ],
     [
       "linkedIn-profile-link",
       "https://www.linkedin.com/in/cameron-grigoriadis-4a4119184",
-      ["resources/icons/profiles/LinkedIn-Logos/LI-In-Bug.png", "View my LinkedIn® Profile"]
+      [baseResourcePath + "LinkedIn-Logos/LI-In-Bug.png", "View my LinkedIn® Profile"]
     ],
     [
       "instagram-profile-link",
       "https://www.instagram.com/servicedayapp/",
-      ["resources/icons/profiles/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png", "Visit the Service Day Instagram Profile"]
+      [baseResourcePath + "GlyphLogo_May2016_Onlinev2/glyph-logo_May2016.png", "Visit the Service Day Instagram Profile"]
     ],
     [
       "twitter-profile-link",
       "https://twitter.com/camgrigo",
-      ["resources/icons/profiles/Twitter Social Icons/Twitter Social Icons/Twitter_SocialIcon_Circle/Twitter_Social_Icon_Circle_Color.png", "View my Twitter Profile"]
+      [baseResourcePath + "Twitter Social Icons/Twitter Social Icons/Twitter_SocialIcon_Circle/Twitter_Social_Icon_Circle_Color.png", "View my Twitter Profile"]
     ],
     [
       "medium-profile-link",
       "https://medium.com/@camgrigo",
-      ["resources/icons/profiles/medium-logos-master/monogram/Monogram.svg", "View my Medium Profile"]
+      [baseResourcePath + "medium-logos-master/monogram/Monogram.svg", "View my Medium Profile"]
     ]
   ]
 
