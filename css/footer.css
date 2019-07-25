@@ -5,6 +5,11 @@ footer.css
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
+footer h6 {
+  color: white;
+  font-weight: bold;
+}
+
 footer .col {
   text-align: center;
 
