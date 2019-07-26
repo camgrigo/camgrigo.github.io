@@ -48,7 +48,7 @@ function loadProfiles() {
 function loadWorkSection() {
   var content = [
     [
-      '<img src="resources/images/service-day-icon.png" alt="Service Day App Icon" style="max-width: 10rem;">',
+      '<img src="resources/icons/service-day-icon.png" alt="Service Day App Icon" style="max-width: 10rem;">',
       'Service Day',
       'An app for the ministry.',
       '<a href="https://apps.apple.com/us/app/service-day/id1204528942?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-03-06&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;" target="_blank"></a>'
