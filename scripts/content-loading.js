@@ -36,7 +36,7 @@ function loadProfiles() {
 
   document.getElementById(profileSectionId).innerHTML = profiles
   .map(function(profile) {
-    return '<div id="' + profile[0] + '" class="profile-link-sm">' +
+    return '<div id="' + profile[0] + '" class="flex-column profile-link-sm">' +
     '<a href="' + profile[1] + '" target="_blank">' +
     '<img src="' + profile[2][0] + '" alt="' + profile[2][1] + '">' +
     '</a>' +
@@ -90,7 +90,7 @@ function loadWorkSection() {
     '</div>' +
     '</div>' +
     '<div class="col-md-1"></div>' +
-    '<div class="row"><hr class="col-12" style="width: ' + hrWidth + '%"></div>'
+    '<div class="row"><div class="col-12"><hr class="item-break"></div></div>'
   })
   .join('\n')
 }

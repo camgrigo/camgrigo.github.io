@@ -9,7 +9,7 @@ header {
 }
 
 header .title-large {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 450;
 
   text-shadow: 0.1rem 0.1rem 0.25rem rgba(91, 100, 110, 0.15);
@@ -21,6 +21,7 @@ header .title-large {
 @media (min-width: 992px) {
 
   header .title-large {
+    text-align: left;
     font-size: 5rem;
   }
 

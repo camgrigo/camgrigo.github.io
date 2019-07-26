@@ -6,40 +6,40 @@ footer.css
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 footer h6 {
-  color: white;
-  font-weight: bold;
+     color: white;
+     font-weight: bold;
 }
 
 footer .col {
-  text-align: center;
+     text-align: center;
 
-  padding: 2em 10%;
+     padding: 2em 10%;
 }
 
 footer .legal {
-  font-size: 0.8em;
-  font-weight: 600;
-  font-style: italic;
+     font-size: 0.8em;
+     font-weight: 600;
+     font-style: italic;
 
-  color: rgb(43, 50, 56);
+     color: rgb(43, 50, 56);
 
-  line-height: 1.5rem;
+     line-height: 1.5rem;
 }
 
 footer .icon-sm {
-  max-height: 1rem;
+     max-height: 1rem;
 }
 
 footer a {
-  color: white;
+     color: white;
 }
 
 footer hr {
-  background-color: rgba(0, 0, 0, 0.3);
+     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .footer-decoration {
-  height: 1.5rem;
+     height: 1.5rem;
 
-  background: rgba(255, 255, 255, 0);
+     background: rgba(255, 255, 255, 0);
 }
