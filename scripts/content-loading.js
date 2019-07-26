@@ -48,27 +48,21 @@ function loadProfiles() {
 function loadWorkSection() {
   var content = [
     [
-      '<img src="resources/icons/service-day-icon.png" alt="Service Day App Icon" style="max-width: 10rem;">',
+      ["resources/icons/service-day-icon.png", "Service Day App Icon", "max-height: 10rem;", ""],
       'Service Day',
-      'An app for the ministry.',
+      "An iOS app for Jehovah's Witnesses that lets you keep track of people you meet and note what you discussed when visiting them.",
       '<a href="https://apps.apple.com/us/app/service-day/id1204528942?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-03-06&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;" target="_blank"></a>'
     ],
     [
-      '<img src="" alt="Happy Yogurt" style="max-width: 10rem;">',
+      ["resources/images/happy_yogurt_toppings.jpeg", "Happy Yogurt", "width:20rem;", "rounded"],
       'Happy Yogurt',
       'Employee, 2017 – 2018',
       ''
     ],
     [
-      '',
+      ["resources/images/grand_ave_night.jpg", "Escondido's Historic Grand Ave at Night", "max-width:20rem;", "rounded"],
       '3-Screens Studio',
       'Intern (Spring 2016)',
-      ''
-    ],
-    [
-      '<img src="" alt="SWINGy Box Screenshot">',
-      'SWINGy Box',
-      'A team project for my Java Graphic User Interface class final.',
       ''
     ]
   ]
@@ -79,12 +73,11 @@ function loadWorkSection() {
 
     return '<div class="row">' +
     '<div class="col-md-1"></div>' +
-    '<div class="col-md-4">' + item[0] + '</div>' + // Image
-    '<div class="col-md-1"></div>' +
-    '<div class="col-md-5">' +
-    '<div class="header">' +
+    '<div class="col-md-5" style="padding-right:2rem;">' + '<img class="mx-auto d-block float-md-right ' + item[0][3] + '" src="' + item[0][0] + '" alt="' + item[0][1] + '" style="' + item[0][2] + '">' + '</div>' + // Image
+    '<div class="col-md-4">' +
+    '<div style="margin-bottom:2rem;">' +
     '<h3>' + item[1] + '</h3>' + // Title
-    '<h6>' + item[2] + '</h6>' + // Tagline
+    '<p>' + item[2] + '</p>' + // Tagline
     '</div>' +
     item[3] + // Call to action
     '</div>' +
