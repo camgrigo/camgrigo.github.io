@@ -51,14 +51,6 @@ h1 {
      margin-bottom: 3rem;
 }
 
-@media (min-width: 992px) {
-
-     #work-section-content .row img {
-          float: right;
-     }
-
-}
-
 /* Buttons */
 
 .btn {
