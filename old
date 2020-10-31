@@ -1,0 +1,151 @@
+
+<!--
+index.html
+(c) 2019 Cameron Grigoriadis
+-->
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<!--  <meta charset="utf-8">-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+<!-- Stylesheets -->
+
+<!-- Bootstrap CSS -->
+<!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+<!---->
+<!--  <link rel="stylesheet" href="css/master.css">-->
+<!--  <link rel="stylesheet" href="css/bootstrap-custom.css">-->
+<!--  <link rel="stylesheet" href="css/sections.css">-->
+<!--  <link rel="stylesheet" href="css/stylistic-details.css">-->
+<!--  <link rel="stylesheet" href="css/blinking-cursor.css">-->
+
+<!-- Title -->
+<!--  <title>Cameron Grigoriadis</title>-->
+
+<!-- Favicon -->
+<!--  <link rel="icon" type="image/png" href="resources/icons/service-day-icon.png">-->
+<!--</head>-->
+<!--<body>-->
+<!--  <div class="container-fluid">-->
+<!--    <header id="page-header" class="row text-md-center">-->
+<!--      <div class="col-1"></div>-->
+<!--      <div class="col-10">-->
+<!--        <h1 class="title-large">Hello,<br>I'm Cameron.</h1>-->
+<!--      </div>-->
+<!--      <div class="col-1"></div>-->
+<!--    </header>-->
+<!--  </div>-->
+<!--  <div class="container-fluid pt-1 pb-4" style="background-color:white;">-->
+<!-- Profiles -->
+<!--    <div class="row">-->
+<!--      <div class="col-md-1"></div>-->
+<!--      <div class="col-md-10 mx-auto">-->
+<!--        <div id="profile-links"></div>-->
+<!--      </div>-->
+<!--      <div class="col-md-1"></div>-->
+<!--    </div>-->
+<!-- Summary -->
+<!--    <div class="row">-->
+<!--      <div class="col-md-1"></div>-->
+<!--      <div class="col-md-5 mr-md-3">-->
+<!--        <p class="w-readable"><strong style="font-size:1.2rem;">I am an enthusiastic software developer</strong> with over 5 years of experience with Apple platforms and the Swift Programming Language, in addition to frontend web technologies. During my summers in college, I served frozen yogurt at a <a href="https://www.facebook.com/happy.yogurt.esco/" target="_blank">local shop</a>, which helped me to develop skills in customer service and time managem1ent.</p>-->
+<!--        <p class="w-readable">Currently, I am seeking part-time work related to my skillset or in a field related to software, including internships and tutoring. I greatly appreciate your consideration, and if you are aware of any opportunities, please feel free to contact me.</p>-->
+<!--      </div>-->
+<!--      <div class="col-md-4">-->
+<!--        <ul>-->
+<!--          <li>AA Computer Science, Palomar College San Marcos, CA</li>-->
+<!--          <li>iOS Development with Xcode and <span style="font-weight:bold;font-style:italic;color:rgb(214, 58, 43)">Swift</span></li>-->
+<!--          <li>Building simple websites with HTML & CSS</li>-->
+<!--          <li>Familiarity with languages like Java and C</li>-->
+<!--          <li>Friendly interaction with customers and coleagues</li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      <div class="col-md-1"></div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <div class="col-6" style="padding-right:5%;">-->
+<!--        <a class="btn btn-info btn-lg btn-group-left" href="resources/CameronGrigoriadisResume_08-22-2019.pdf" target="_blank">-->
+<!--          <svg style="margin-top:0rem;margin-bottom:0.2rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>-->
+<!--          <p>View Resume</p>-->
+<!--        </a>-->
+<!--      </div>-->
+<!--      <div class="col-6">-->
+<!--        <a class="btn btn-primary btn-lg btn-group-right" href="#contact">-->
+<!--          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>-->
+<!--          <p>Contact Me</p>-->
+<!--        </a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!-- Work -->
+<!--    <section>-->
+<!--      <div class="row">-->
+<!--        <div class="col-12">-->
+<!--          <hr class= "section-break">-->
+<!--          <h1>My work, past and present</h1>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div id="work"></div>-->
+<!--    </section>-->
+<!-- Contact -->
+<!--    <section id="contact">-->
+<!--      <div class="row">-->
+<!--        <div class="col">-->
+<!--          <hr class="section-break">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="row">-->
+<!--        <div class="col-md-6" style="padding-right:2em;">-->
+<!--          <h1>Contact</h1>-->
+<!--        </div>-->
+<!--        <div class="col-md-6">-->
+<!--          <ul id="contact-info" style="list-style:none;padding-top:0.5rem;padding-left:0;">-->
+<!--            <li><h5>Cameron Grigoriadis</h5></li>-->
+<!--            <li><h6>Developer, Service Day</h6></li>-->
+<!--            <li>-->
+<!--              <img src="resources/icons/feather/phone.svg" alt="Phone">760.208.0429-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="mailto:cg@camgrigo.com">-->
+<!--                <img src="resources/icons/feather/mail.svg" alt="Email">cg@camgrigo.com-->
+<!--              </a>-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+<!--  </div>-->
+<!--  <div class="container-fluid">-->
+<!-- Footer -->
+<!--    <footer class="row">-->
+<!--      <div class="col-sm-1 col-md-2"></div>-->
+<!--      <div class="col-sm-10 col-md-8">-->
+<!--        <h6>-->
+<!--          <a href="#page-header">Copyright 2019 Cameron Grigoriadis.</a> <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.iubenda.com%2Fprivacy-policy%2F56343677&sa=D&sntz=1&usg=AFQjCNFUjYO6ZH_OqhcoIyGKzO_GMaj_-Q" target="_blank">Service Day Privacy Policy<svg class="icon-sm feather feather-external-link" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>-->
+<!--        </h6>-->
+<!--        <hr class="item-break">-->
+<!--        <p class="legal mx-auto">Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. LinkedIn, the LinkedIn logo, the IN logo and InMail are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries. TWITTER, TWEET, RETWEET and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.</p>-->
+<!--        <p class="legal mx-auto"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Some glyphs courtesy of <a href="https://feathericons.com/" target="_blank">-->
+<!--          Feather.<svg class="icon-sm feather feather-feather" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>-->
+<!--        </a></p>-->
+<!--      </div>-->
+<!--      <div class="col-sm-1 col-md-2"></div>-->
+<!--    </footer>-->
+<!--  </div>-->
+
+<!-- JavaScript -->
+<!-- jQuery, Popper.js, Bootstrap JS -->
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
+<!--  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
+<!-- Other Scripts -->
+<!--  <script src="scripts/content-loading.js"></script>-->
+<!--  <script>-->
+<!--    loadProfiles()-->
+<!--    loadWorkSection()-->
+<!--  </script>-->
+<!--</body>-->
+<!--</html>-->
