@@ -2,13 +2,13 @@
     "about": {
         "heading": "Hello,<br>my name is Cameron Grigoriadis.",
         "subheading": "I love working with technology and helping others benefit from it.",
-        "text": "<p>My background is in software development for the web and Apple platforms. On the side, I enjoy using my knowledge of hardware and software to help others find technical solutions.</p>Programming since 2012<li>Able to quickly adapt to new technologies</li><li>Good manner on telephone or video conference</li><li>Experience helping others set up devices or troubleshoot remotely, over the phone, or in person</li>"
+        "text": "<p>I started writing code back in middle school as a hobby and it quickly turned into a passion of mine. Beginning with websites, I gained more and more knowledge about programming until I was able to develop my first native application on iOS, Service Day. I pride myself on learning new things and try to preserve the same spirit that drove me to become a self-taught developer. At the same time I have gained a deeper understanding of hardware technologies and IT concepts. It brings me satisfaction to help others find solutions to their tech troubles, and I still take time to help close friends and relatives find their way through software and hardware issues, though much of it is remote nowadays.</p><p>I am currently searching for part-time work or internship opportunities related to iOS or web development or the IT field. I have foundational experience with a wide range of technologies and am eager to build on my skills. My desired position is one where I can hone my skills, learn from more experienced developers or technicians, while proving to be an asset to your team. Thank you for your consideration.</p>"
     },
     "skills": [
         {
             "images": [
                 {
-                    "src": "resources/mortarboard.svg",
+                    "src": "resources/icons/Flaticon/mortarboard.svg",
                     "alt": "Mortarboard"
             }
             ],
@@ -19,7 +19,7 @@
         {
             "images": [
                 {
-                    "src": "resources/feather/code.svg",
+                    "src": "resources/icons/feather/code.svg",
                     "alt": "Angle brackets"
             }
             ],
@@ -39,7 +39,7 @@
         {
             "images": [
                 {
-                    "src": "resources/computer.svg",
+                    "src": "resources/icons/Flaticon/computer.svg",
                     "alt": "Computer icon"
             }
             ],

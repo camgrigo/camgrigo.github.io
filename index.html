@@ -12,7 +12,6 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hero-decoration.css">
-    <link rel="stylesheet" href="css/skills.css">
 
     <link rel="icon" type="image/png" href="resources/service-day-icon.png">
 
@@ -40,19 +39,19 @@
                 <div class="link-list d-flex flex-column flex-sm-row align-items-start">
                     <button class="btn">
                         <a href="https://www.linkedin.com/in/camgrigo" target="_blank">
-                            <img src="resources/feather/linkedin.svg" alt="LinkedIn">
+                            <img src="resources/icons/feather/linkedin.svg" alt="LinkedIn">
                             LinkedIn
                         </a>
                     </button>
                     <button class="btn">
                         <a href="mailto:camgrigoriadis@gmail.com">
-                            <img src="resources/feather/mail.svg" alt="Email">
+                            <img src="resources/icons/feather/mail.svg" alt="Email">
                             Email
                         </a>
                     </button>
                     <button class="btn">
                         <a href="" target="_blank">
-                            <img src="resources/feather/file-text.svg" alt="Resume">
+                            <img src="resources/icons/feather/file-text.svg" alt="Resume">
                             Resume
                         </a>
                     </button>
@@ -77,7 +76,7 @@ camgrigoriadis@gmail.com
                 <ul>
                     <li>
                         <a href="https://feathericons.com/" target="_blank">
-                            Feather<img src="resources/feather/feather.svg" alt="Feather">
+                            Feather<img src="resources/icons/feather/feather.svg" alt="Feather">
                         </a>
                     </li>
                     <li>
@@ -91,12 +90,6 @@ camgrigoriadis@gmail.com
             </section>
         </div>
     </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script>
         // UI Elements
@@ -207,15 +200,26 @@ camgrigoriadis@gmail.com
 
         function loadContent() {
             (async () => {
-                let response = await fetch("data/main.json")
-                content = await response.json()
+                try {
+                  let response = await fetch("https://www.camgrigo.com/test/data/main.json")
+                  content = await response.json()
 
-                loadAboutSection()
-                buildInLinkList()
-                loadSkillsSection()
+                  loadAboutSection()
+                  buildInLinkList()
+                  loadSkillsSection()
+
+                } catch (error) {
+                  console.error(error)
+                }
             })()
         }
 
         loadContent()
     </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body></html>

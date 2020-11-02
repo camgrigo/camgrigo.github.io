@@ -460,3 +460,58 @@ footer .icon-credit ul li {
 footer .icon-credit ul li:not(:last-of-type) {
     margin-bottom: 1.5rem;
 }
+
+/*Skills*/
+
+.card-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 3rem;
+    grid-row-gap: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .card-container {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+#skills h2 {
+    margin-bottom: 2rem;
+}
+
+/* Skill Item */
+
+.skill-item {
+    display: grid;
+    grid-template-columns: 1.75rem auto;
+    grid-template-areas: "img body";
+    grid-column-gap: 0.75rem;
+
+    padding: 1rem;
+    border-radius: 1rem;
+
+    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(200px);
+}
+
+.skill-item-row {
+    grid-column-start: 1;
+}
+
+.skill-item-img {
+    height: 1.5rem;
+    grid-area: img;
+}
+
+.skill-item-body {
+    grid-area: body;
+    color: var(--body);
+}
+
+.skill-item-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--heading);
+    margin-bottom: 0.75rem;
+}
