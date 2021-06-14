@@ -1,134 +1,277 @@
-<!--
-index.html
-(c) 2019 Cameron Grigoriadis
--->
-<!DOCTYPE html>
+<!-- (c) 2020 Cameron Grigoriadis -->
+<!doctype html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Stylesheets -->
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/master.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/stylistic-details.css">
-  <link rel="stylesheet" href="css/blinking-cursor.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hero-decoration.css">
 
-  <!-- Title -->
-  <title>Cameron Grigoriadis | Home</title>
+  <link rel="icon" type="image/png" href="resources/service-day-icon.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="resources/icons/service-day-icon.png">
+  <title>Cameron Grigoriadis | Personal Website | camgrigo.com</title>
 </head>
-<body>
-  <div class="container-fluid">
-    <header id="page-header" class="row text-md-center">
-      <div class="col-12">
-        <h1 class="title-large">Hello,<br>I'm Cameron.</h1>
-      </div>
-    </header>
+
+<body class="container-fluid p-0">
+  <div class="background">
+    <div class="background-layer background-layer-one"></div>
+    <div class="background-layer background-layer-two"></div>
   </div>
-  <div class="container-fluid" style="background-color:white;">
-    <!-- Summary -->
-    <section>
-      <div id="profile-link-section" class="d-flex flex-row justify-content-center justify-content-lg-start link-group">
-      </div>
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <p class="w-readable"><strong style="font-size:1.2rem;">I am an enthusiastic software developer</strong> with over 5 years of experience with Apple platforms and the Swift Programming Language, in addition to frontend web technologies. During my summers in college, I served frozen yogurt at a <a href="https://www.facebook.com/happy.yogurt.esco/" target="_blank">local shop</a>, which helped me to develop skills in customer service and time management.</p>
-          <p class="w-readable">Currently, I am seeking part-time work related to my skillset or in a field related to software, including internships and tutoring. I greatly appreciate your consideration, and if you are aware of any opportunities, please feel free to contact me.</p>
+
+  <main>
+    <div class="hero-decoration">
+      <div class="hero-decoration-square hero-decoration-square-top"></div>
+      <div class="hero-decoration-square hero-decoration-square-center"></div>
+      <div class="hero-decoration-square hero-decoration-square-right"></div>
+      <div class="hero-decoration-square hero-decoration-square-bottom"></div>
+    </div>
+    <div>
+      <section id="about">
+        <h1></h1>
+        <h2></h2>
+        <p></p>
+        <div class="link-list d-flex flex-column flex-sm-row align-items-start">
+          <button class="btn">
+            <a href="https://www.linkedin.com/in/camgrigo" target="_blank">
+              <img src="resources/icons/feather/linkedin.svg" alt="LinkedIn">
+              LinkedIn
+            </a>
+          </button>
+          <button class="btn">
+            <a href="https://github.com/camgrigo" target="_blank">
+              <img src="resources/icons/feather/github.svg" alt="GitHub">
+              GitHub
+            </a>
+          </button>
+          <button class="btn">
+            <a href="mailto:camgrigoriadis+work@gmail.com">
+              <img src="resources/icons/feather/mail.svg" alt="Email">
+              Email
+            </a>
+          </button>
+          <button class="btn">
+            <a href="https://apps.apple.com/us/app/service-day/id1204528942?mt=8" target="_blank">
+              <img src="resources/service-day-icon.png" alt="Service Day">
+              Service Day
+            </a>
+          </button>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-4">
+      </section>
+      <section id="skills">
+        <h2>Skills & Experience</h2>
+        <div class="card-container"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div></div>
+    <div>
+      <div class="footer-header">
+        <a class="email" href="mailto:camgrigoriadis+work@gmail.com">
+          camgrigoriadis@gmail.com
+        </a>
+      </div>
+      <div class="footer-body">
+        <section class="legal-copy">
+          <p>Copyright 2020 Cameron Grigoriadis. <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.iubenda.com%2Fprivacy-policy%2F56343677&sa=D&sntz=1&usg=AFQjCNFUjYO6ZH_OqhcoIyGKzO_GMaj_-Q" target="_blank">Service Day Privacy Policy</a></p>
+          <p>Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. Swift and the Swift logo are trademarks of Apple Inc. LinkedIn, the LinkedIn logo, the IN logo and InMail are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries.</p>
+        </section>
+        <section class="icon-credit">
+          <h6>Some icons courtesy of</h6>
           <ul>
-            <li>AA Computer Science, Palomar College San Marcos, CA</li>
-            <li>iOS Development with Xcode and <span style="font-weight:bold;font-style:italic;color:rgb(214, 58, 43)">Swift</span></li>
-            <li>Building simple websites with HTML & CSS</li>
-            <li>Familiarity with languages like Java and C</li>
-            <li>Friendly interaction with customers and coleagues</li>
-          </ul>
-        </div>
-      </div>
-      <div class="d-flex flex-row justify-content-center" style="margin-top:5rem;margin-bottom:10rem;">
-        <div class="flex-column" style="margin-right:5%;">
-          <a class="btn btn-info btn-lg btn-group-left" href="resources/CameronGrigoriadisResume_07-22-2019.pdf" target="_blank">
-            <svg style="margin-top:0rem;margin-bottom:0.2rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
-            <p>View Resume</p>
-          </a>
-        </div>
-        <div class="flex-column">
-          <a class="btn btn-primary btn-lg btn-group-right" href="#contact">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-            <p>Contact Me</p>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- Work -->
-    <section>
-      <div class="row">
-        <div class="col-12">
-          <hr class= "section-break">
-          <h1>My work, past and present</h1>
-        </div>
-      </div>
-      <div id="work-section-content"></div>
-    </section>
-    <!-- Contact -->
-    <section id="contact">
-      <div class="row">
-        <div class="col-md-6" style="padding-right:2em;">
-          <h1>Contact</h1>
-        </div>
-        <div class="col-md-6">
-          <ul id="contact-info" style="list-style:none;padding-top:0.5rem;padding-left:0;">
-            <li><h5>Cameron Grigoriadis</h5></li>
-            <li><h6>Developer, Service Day</h6></li>
             <li>
-              <img src="resources/icons/feather/phone.svg" alt="Phone">760.208.0429
-            </li>
-            <li>
-              <a href="mailto:cg@camgrigo.com">
-                <img src="resources/icons/feather/mail.svg" alt="Email">cg@camgrigo.com
+              <a href="https://feathericons.com/" target="_blank">
+                Feather<img src="resources/icons/feather/feather.svg" alt="Feather">
               </a>
             </li>
+            <li>
+              <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a>
+            </li>
           </ul>
-        </div>
+        </section>
       </div>
-    </section>
-  </div>
-  <!-- Footer -->
-  <footer class="row">
-    <div class="col">
-      <h6>
-        <a href="#page-header">Copyright 2019 Cameron Grigoriadis</a> • <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.iubenda.com%2Fprivacy-policy%2F56343677&sa=D&sntz=1&usg=AFQjCNFUjYO6ZH_OqhcoIyGKzO_GMaj_-Q" target="_blank">Service Day Privacy Policy<svg class="icon-sm feather feather-external-link" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
-      </h6>
-      <hr class="item-break">
-      <p class="legal">Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. • LinkedIn, the LinkedIn logo, the IN logo and InMail are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries. • TWITTER, TWEET, RETWEET and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.</p>
-      <p class="legal"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Some glyphs courtesy of <a href="https://feathericons.com/" target="_blank">
-        Feather<svg class="icon-sm feather feather-feather" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
-      </a></p>
+    </div>
+    <div>
+      <a href="blog/blog.html">Blog</a>
     </div>
   </footer>
 
-  <!-- JavaScript -->
-  <!-- jQuery, Popper.js, Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-  <!-- Other Scripts -->
-  <script src="scripts/content-loading.js"></script>
   <script>
-    loadProfiles()
-    loadWorkSection()
-  </script>
-</body>
-</html>
+  let content = {
+    "about": {
+      "heading": "Hello,<br>my name is Cameron Grigoriadis.",
+      "subheading": "I love working with technology and helping others benefit from it.",
+      "text": "<p>Back in middle school, I set out to create my first app. Starting with the basics, I soon navigated through web development and ultimately learned iOS development. New technologies, like the Swift programming language, excited me and helped me eventually develop and release Service Day, my first app on the App Store. I still pride myself on learning new things and try to preserve the same spirit that drove me to become a self-taught developer.</p><p>I am currently searching for part-time work and internship opportunities related to iOS development, frontend web development, or IT. I have foundational experience with a wide range of technologies and am eager to build on my skills. I am looking to hone my skills and learn from more experienced colleagues, while working hard to be an asset to your team.</p><p>Thank you for your consideration.</p>"
+    },
+    "skills": [{
+      "images": [{
+        "src": "resources/icons/Flaticon/mortarboard.svg",
+        "alt": "Mortarboard"
+      }],
+      "title": "Education — <a href=\"https://www.linkedin.com/school/palomar-college/\" target=\"_blank\"><strong>Palomar College</strong></a> (San Marcos, CA)",
+      "content": "<h6>2016 – 2019</h6>Associate's degree, Computer Science<br>",
+      "width": "full"
+    },
+    {
+      "images": [{
+        "src": "resources/icons/feather/code.svg",
+        "alt": "Angle brackets"
+      }],
+      "title": "Web Developer, RAPID, Inc.",
+      "content": "<h6>Sep 2019 – Oct 2020</h6><p>Designed and developed a new mobile and desktop food ordering and delivery experience</p><p>Utilized HTML, CSS, Bootstrap, JavaScript, jQuery, and Google Maps API</p>"
+    },
+    {
+      "images": [{
+        "src": "resources/Swift_logo_black.svg",
+        "alt": "Swift logo"
+      }],
+      "title": "Independent iOS Developer",
+      "content": "<h6>2017 – Present</h6><p>Independently developed and released an application for iOS, using Swift</p>Experienced using<ul><li>Xcode</li><li>Git</li><li>Swift Package Manager, Carthage, CocoaPods</li><li>SwiftUI</li><li>Testflight</li></ul>"
+    },
+    {
+      "images": [{
+        "src": "resources/icons/Flaticon/computer.svg",
+        "alt": "Computer icon"
+      }],
+      "title": "IT Skills",
+      "content": "<p>Able to perform basic hardware-related tasks like RAM and SSD upgrades</p><p>Experienced in patiently providing remote support</p>Some networking training, including:<ul><li>Handling network addresses</li><li>Calculating subnet masks</li><li>The TCP/IP model</li><li>Common hardware components</li>"
+    },
+    {
+      "title": "Employee, Happy Yogurt (Escondido, CA)",
+      "content": "<h6>2017 – 2018</h6><p>Helped create a welcoming atmosphere for customers</p><p>Accurately fulfilled orders in a timely manner</p><p>Handled multiple responsibilities throughout the day, including running the store when the manager was out</p><p>Firsthand experience with the restaurant side of food ordering applications</p>"
+    },
+    {
+      "title": "Internship, 3-Screens Studio (Escondido, CA)",
+      "content": "<h6>Apr – Jun 2016</h6><p>Three-month internship providing a taste of working at a software development company</p><p>Mentored on web development, project management, iOS development</p>"
+    }
+  ]
+}
+</script>
+
+<script>
+// UI Elements
+
+function Image({
+  src,
+  alt
+}, className) {
+  let image = document.createElement("img")
+
+  image.src = src
+  image.alt = alt
+  image.className = className
+
+  return image
+}
+
+function View(children = [], className) {
+  let element = document.createElement("div")
+
+  if (className) {
+    element.className = className
+  }
+  children.forEach(child => {
+    if (child) {
+      element.appendChild(child)
+    }
+  })
+
+  return element
+}
+
+function HTML(innerHTML, className) {
+  let element = document.createElement("div")
+
+  if (className) {
+    element.className = className
+  }
+  element.innerHTML = innerHTML
+
+  return element
+}
+
+function Label(text, className) {
+  let element = View([], className)
+
+  element.innerHTML = text
+
+  return element
+}
+
+
+// Link List Animation
+
+function buildInLinkList() {
+  let elements = document.querySelectorAll(".link-list button a")
+
+  const animationEnd = "animationend"
+
+  elements.forEach((element, index) => {
+    element.addEventListener(animationEnd, () => {
+      element.style.opacity = 1
+    })
+
+    element.style.opacity = 0
+    element.style.animation = `scale-in 500ms ease-in-out ${(index * 100) + 250}ms`
+  })
+}
+
+
+// Load Content
+
+function loadAboutSection() {
+  let aboutSection = document.getElementById("about")
+
+  aboutSection.querySelector("h1").innerHTML = content.about.heading
+  aboutSection.querySelector("h2").innerHTML = content.about.subheading
+  aboutSection.querySelector("p").innerHTML = content.about.text
+}
+
+function SkillCell(item) {
+  let images = item.images ? item.images.map(image => {
+    return Image(image, `skill-item-img${image.noStyling ? " skill-item-img-plain" : ``}`)
+  }) : null
+  let cell = View([
+    View([
+      Label(item.title, "skill-item-title"),
+      HTML(item.content)
+    ], "skill-item-body")
+  ].concat(images), "skill-item")
+
+  if (item.width == "full") {
+    cell.classList.add("skill-item-row")
+  }
+
+  return cell
+}
+
+function loadSkillsSection() {
+  let skillsListContainer = document.querySelector("#skills .card-container")
+
+  content.skills.forEach(item => {
+    skillsListContainer.appendChild(SkillCell(item))
+  })
+}
+
+function loadContent() {
+  buildInLinkList()
+  loadAboutSection()
+  loadSkillsSection()
+}
+
+loadContent()
+</script>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>
