@@ -1,0 +1,120 @@
+/* hero-decoration.css */
+
+.hero-decoration {
+    --hero-decoration-width: 12rem;
+    --hero-decoration-height: 13rem;
+
+    width: var(--hero-decoration-width);
+    height: var(--hero-decoration-height);
+}
+
+@keyframes hero-decoration-layer-one-build-in {
+    0% {
+        transform: scale(0.85);
+        filter: blur(5px);
+    }
+
+    10% {
+        /*        filter: none;*/
+        transform: none;
+    }
+}
+
+@keyframes hero-decoration-layer-two-build-in {
+    0% {
+        transform: scale(0.6) translateX(-1rem);
+        filter: blur(10px);
+    }
+
+    50% {
+        /*        filter: none;*/
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+.hero-decoration-square {
+    --hero-decoration-square-border-radius: 0.4rem;
+    --hero-decoration-animation-duration: 2s;
+
+    border-radius: var(--hero-decoration-square-border-radius);
+    animation-duration: var(--hero-decoration-animation-duration);
+    animation-timing-function: ease-out;
+}
+
+.hero-decoration-square-top {
+    width: calc(var(--hero-decoration-width) * 0.23);
+    height: calc(var(--hero-decoration-width) * 0.23);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #bfd8ff;
+
+    filter: blur(2px);
+
+    animation-name: hero-decoration-layer-two-build-in;
+}
+
+.hero-decoration-square-center {
+    width: calc(var(--hero-decoration-width) * 0.4);
+    height: calc(var(--hero-decoration-width) * 0.4);
+
+    position: absolute;
+    top: 33%;
+    left: 18%;
+
+    background-color: #476AFF;
+    background-image: var(--primary-gradient);
+
+    animation-name: hero-decoration-layer-one-build-in;
+}
+
+.hero-decoration-square-right {
+    width: calc(var(--hero-decoration-width) * 0.31);
+    height: calc(var(--hero-decoration-width) * 0.31);
+
+    position: absolute;
+    top: 16%;
+    right: 0;
+
+    background-color: #bfdaff;
+
+    filter: blur(0.75px);
+
+    animation-name: hero-decoration-layer-two-build-in;
+}
+
+.hero-decoration-square-bottom {
+    width: calc(var(--hero-decoration-width) * 0.19);
+    height: calc(var(--hero-decoration-width) * 0.19);
+
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+
+    background-color: #bfc4ff;
+
+    filter: blur(4px);
+
+    animation-name: hero-decoration-layer-two-build-in;
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+    .hero-decoration-square-top {
+        background-color: #04204a;
+    }
+
+    .hero-decoration-square-right {
+        background-color: #12325f;
+    }
+
+    .hero-decoration-square-bottom {
+        background-color: #1c204a;
+    }
+}
+*/
