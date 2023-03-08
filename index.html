@@ -40,54 +40,8 @@
           class="navbar-brand text-center text-md-end"
           href="#"
         ></a>
-        <li class="nav-item d-flex d-md-none align-items-center">
-          <div class="nav-icon-container"></div>
-        </li>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Apps
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Service Day</a></li>
-                <li><a class="dropdown-item" href="#">Meetings</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Portfolio
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">SoCal Counterworks</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item d-none d-md-flex align-items-center">
-              <div class="nav-icon-container"></div>
-            </li>
           </ul>
         </div>
       </div>
@@ -96,12 +50,11 @@
     <!-- Main -->
     <main>
       <section id="top" class="">
-        <div class="container-md">
+        <div class="container-xl">
           <div class="hero">
             <h1 class="hero-title">
-              <span class="hero-title-2">— Crafting —</span><br />
-              <span class="hero-title-1">delightful and familiar</span><br />
-              <span class="hero-title-2">things</span>
+Carefully crafting<br />
+<em>familiarity</em> and <em>delight</em>.<br />
             </h1>
             <img src="assets/balloons.png" alt="" class="" />
           </div>
@@ -115,9 +68,7 @@
 
       <section></section>
 
-      <section id="contact" style="">
-
-      </section>
+      <section id="contact"></section>
     </main>
 
     <!-- Footer -->
@@ -131,6 +82,26 @@
       <a href="https://www.linkedin.com/in/camgrigo/" target="_blank">
         <img src="assets/circle_linkedin_icon.png" alt="LinkedIn" />
       </a>
+    </template>
+
+    <template id="navLinkTemplate">
+<li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"></a>
+            </li>
+    </template>
+
+    <template id="navDropdownTemplate">
+<li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              </a>
+              <ul class="dropdown-menu"></ul>
+            </li>
     </template>
 
     <!-- Bootstrap core JS-->
