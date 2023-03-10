@@ -84,7 +84,16 @@ function buildNav(site) {
   });
 }
 
+function buildFooter(site) {
+  let copyright = "©2023 Cameron Grigoriadis";
+
+  let footer = document.querySelector("footer");
+
+  footer.innerHTML += copyright;
+}
+
 buildNav(site);
+buildFooter(site);
 
 function screenSizeListener(mediaQuery) {
   let socialContainer = document.createElement("div");
