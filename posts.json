@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "title": "Swift on Windows",
+      "content": "I think what <a href=\"https://www.youtube.com/watch?v=bOMQiMxh5Bc\" target=\"_blank\">The Browser Company</a> is attempting to do with Swift on Windows is very intriguing. The beginning of Swift's open source life was very exciting and dynamic. More recently, it seems much of the interest has cooled. The idea of making cross-platform development more feasible with a powerful language option really sparks that excitement that I felt during the earlier days of Swift.",
+      "author": "Cameron Grigoriadis",
+      "date": "3.11.23"
+    }
+  ]
+}
