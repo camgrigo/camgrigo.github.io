@@ -2,6 +2,7 @@
 
 const site = {
   title: "Cameron Grigoriadis",
+  email: "camgrigoriadis@gmail.com",
   sitemap: [
     { type: "link", title: "Home", href: "#" },
     {
@@ -71,17 +72,21 @@ function buildNav(site) {
       navContainer.appendChild(e);
     });
 
+  document.querySelectorAll(".nav-link").forEach((e) => {
+    e.addEventListener("mouseover", (e) => {
+      console.log(e);
+      let color = randomNavLinkHoverColor();
+      console.log(color);
+      e.target.style.color = color + "!important";
+    });
+  });
+
   document.getElementById("navbarLogo").innerHTML = site.title;
 
   navContainer.innerHTML += `
-        <li class="nav-item nav-item-social d-flex d-md-none align-items-center">
+        <li class="nav-item nav-item-social d-flex align-items-center">
+        <div class="nav-icon-container nav-icon-container-lg"></div>
         </li>`;
-
-  document.querySelectorAll(".nav-icon-container").forEach((e) => {
-    e.appendChild(
-      document.getElementById("navSocialLinks").content.cloneNode(true)
-    );
-  });
 }
 
 function buildFooter(site) {
@@ -92,19 +97,24 @@ function buildFooter(site) {
   footer.innerHTML += copyright;
 }
 
+function randomNavLinkHoverColor() {
+  const colors = [
+    "rgb(11, 162, 94)",
+    "rgb(186, 31, 79)",
+    "rgb(209, 84, 27)",
+    "rgb(159, 27, 159)",
+    "#158065",
+  ];
+  return colors[Math.floor(Math.random() * colors.length)];
+}
+
 buildNav(site);
 buildFooter(site);
 
-function screenSizeListener(mediaQuery) {
-  let socialContainer = document.createElement("div");
-  socialContainer.classList.add("nav-icon-container");
-  if (mediaQuery.matches) {
-    document.querySelector(".navbar-collapse").after(socialContainer);
-  } else {
-    document.querySelector(".nav-item-social").appendChild(socialContainer);
-  }
-}
+document.getElementById("contactFormEmailLabel").innerHTML = site.email;
 
-var x = window.matchMedia("(max-width: 992px)");
-screenSizeListener(x); // Call listener function at run time
-x.addListener(screenSizeListener); // Attach listener function on state changes
+document.querySelectorAll(".nav-icon-container").forEach((e) => {
+  e.appendChild(
+    document.getElementById("navSocialLinks").content.cloneNode(true)
+  );
+});

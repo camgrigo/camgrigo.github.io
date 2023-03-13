@@ -40,6 +40,7 @@
           class="navbar-brand text-center text-md-end"
           href="#"
         ></a>
+              <div class="nav-icon-container nav-icon-container-sm"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
           </ul>
@@ -49,26 +50,34 @@
 
     <!-- Main -->
     <main>
-      <section id="top" class="">
+      <section id="top">
         <div class="container-xl">
           <div class="hero">
             <h1 class="hero-title">
 Carefully crafting<br />
-<em>familiarity</em> and <em>delight</em>.<br />
+<span class="familiarity">familiarity</span> and <span class="delight">delight</span>.<br />
             </h1>
             <img src="assets/balloons.png" alt="" class="" />
           </div>
           <div id="blogList">
-            <h6>Latest Blog Posts</h5>
-            <ul>
-            </ul>
+            <h6>Latest Posts</h5>
+              <hr>
           </div>
         </div>
       </section>
 
       <section></section>
 
-      <section id="contact"></section>
+      <!-- Contact -->
+    <section id="contact">
+      <div class="container-xl">
+          <h1>Contact</h1>
+            <textarea class="form-control" rows="5" id="contactFormMessage" style="max-width: 600px;"></textarea>
+              <button class="btn btn-outline-secondary">
+                <img src="assets/email.png" width="44" alt="Email"> <span id="contactFormEmailLabel"></span>
+              </button>
+      </div>
+    </section>
     </main>
 
     <!-- Footer -->
@@ -113,5 +122,8 @@ Carefully crafting<br />
 
     <!-- Loading script -->
     <script src="scripts/pageloading.js"></script>
+
+        <script src="scripts/blog.js"></script>
+
   </body>
 </html>
