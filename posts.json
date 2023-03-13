@@ -5,6 +5,12 @@
       "content": "I think what <a href=\"https://www.youtube.com/watch?v=bOMQiMxh5Bc\" target=\"_blank\">The Browser Company</a> is attempting to do with Swift on Windows is very intriguing. The beginning of Swift's open source life was very exciting and dynamic. More recently, it seems much of the interest has cooled. The idea of making cross-platform development more feasible with a powerful language option really sparks that excitement that I felt during the earlier days of Swift.",
       "author": "Cameron Grigoriadis",
       "date": "3.11.23"
+    },
+    {
+      "title": "SwiftUI in Production",
+      "content": "Recent sentiment towards SwiftUI redesigns has continued to be <a href=\"https://www.relay.fm/connected/440\" target=\"_blank\">mixed</a>. I personally feel the benefits are huge and any wrinkles in experience will continue to be ironed out over time, as the framework becomes more second-nature to developers and Apple makes improvements. The ability to <a href=\"https://developer.apple.com/videos/play/wwdc2014/223/\" target=\"_blank\">prototype</a> and test applications with dramatically reduced overhead can lead to more refinement in the development process, and, in the end, a better product.",
+      "author": "Cameron Grigoriadis",
+      "date": "3.11.23"
     }
   ]
 }

@@ -6,7 +6,7 @@ fetch("posts.json")
     postList.classList.add("list-unstyled");
     posts.forEach((post) => {
       const listItem = document.createElement("li");
-      listItem.innerHTML += `<h6 class="me-2">${post.date}</h6>${post.content}`;
+      listItem.innerHTML += `<div class="blog-post-date">${post.date}</div><div class="blog-post-title">${post.title}</div><div class="blog-post-content">${post.content}</div>`;
       postList.appendChild(listItem);
     });
     document.getElementById("blogList").appendChild(postList);

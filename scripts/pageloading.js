@@ -72,6 +72,15 @@ function buildNav(site) {
       navContainer.appendChild(e);
     });
 
+  document.querySelectorAll(".nav-link").forEach((e) => {
+    e.addEventListener("mouseover", (e) => {
+      console.log(e);
+      let color = randomNavLinkHoverColor();
+      console.log(color);
+      e.target.style.color = color + "!important";
+    });
+  });
+
   document.getElementById("navbarLogo").innerHTML = site.title;
 
   navContainer.innerHTML += `
@@ -86,6 +95,17 @@ function buildFooter(site) {
   let footer = document.querySelector("footer");
 
   footer.innerHTML += copyright;
+}
+
+function randomNavLinkHoverColor() {
+  const colors = [
+    "rgb(11, 162, 94)",
+    "rgb(186, 31, 79)",
+    "rgb(209, 84, 27)",
+    "rgb(159, 27, 159)",
+    "#158065",
+  ];
+  return colors[Math.floor(Math.random() * colors.length)];
 }
 
 buildNav(site);
